@@ -1,7 +1,7 @@
 /* Element selectors */
 /* body element selector */
 body {
-    background-color: blue; /* change later */
+    background-color: orange;
 }
 
 a {
@@ -48,5 +48,35 @@ header section nav a:hover {
     color: #ff0000; /* Change color on hover */
   }
 
+/* hero image class selector */
+.hero {
+    height: 600px;
+    width: 500px;
+    float: right;
+    /*  */
+    /*  */
+    
+    background-image: url("../images/William\ Mason\ Iceland\ Waterfall\ Pic.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
+/* subtitle class selector */
+.subtitle {
+    /* TO BE STYLED */
+}
+
+/* left_column class selector */
+.left_column {
+    width: 75%;
+    display: inline-block;
+    margin-right: 20px;
+    clear: both;
+    float: left;
+    padding: 20px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 20px;
+}
 
