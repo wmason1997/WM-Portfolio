@@ -61,9 +61,46 @@ header section nav a:hover {
     background-position: center;
 }
 
+
+
 /* subtitle class selector */
 .subtitle {
     /* TO BE STYLED */
+}
+
+.Horiseon-Marketing {
+    height: 600px;
+    width: 1000px;
+    float: left;
+    background-image: url("../images/WM-Portfolio-Horiseon-Marketing-Photo.png");
+}
+
+.MySQL {
+    height: 600px;
+    width: 500px;
+    float:left;
+    background-image: url("../images/WM-Portfolio-MySQL-Photo.jpg"); 
+}
+
+.MongoDB {
+    height: 600px;
+    width: 500px;
+    float:left;
+    background-image: url("../images/WM-Portfolio-MongoDB-Photo.png"); 
+}
+
+.JavaScript {
+    height: 600px;
+    width: 500px;
+    float:left;
+    background-image: url("../images/WM-Portfolio-JavaScript-Photo.jpg"); 
+}
+
+.Bootstrap {
+    height: 600px;
+    width: 500px;
+    float:left;
+    background-image: url("../images/WM-Portfolio-Bootstrap-Photo.png"); 
 }
 
 /* left_column class selector */
