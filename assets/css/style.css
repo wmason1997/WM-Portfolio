@@ -138,16 +138,16 @@ footer section nav a:hover {
 }
 
 /* left_column class selector */
-.left_column {
+/* .left_column {
     width: 75%;
     display: inline-block;
     margin-right: 20px;
     clear: both;
     /* float: left; */
-    padding: 20px;
+    /* padding: 20px;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 20px;
-}
+} */ 
 
