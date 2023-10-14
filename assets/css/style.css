@@ -44,7 +44,30 @@ li {
  }
   
 
-header section nav a:hover {
+footer section nav a:hover {
+    color: #ff0000; /* Change color on hover */
+  }
+
+  footer section ul {
+    list-style-type: none;
+}
+  
+ /* List Item element within Unordered List List Item element selector. Replaced div with section to make semantic */
+footer section ul li {
+    display: inline-block;
+    margin-left: 60px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li { 
+    display: inline-block;
+ }
+  
+
+footer section nav a:hover {
     color: #ff0000; /* Change color on hover */
   }
 
@@ -101,6 +124,13 @@ header section nav a:hover {
     width: 500px;
     float:left;
     background-image: url("../images/WM-Portfolio-Bootstrap-Photo.png"); 
+}
+
+.image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
 }
 
 /* left_column class selector */
