@@ -44,11 +44,11 @@ li {
  }
   
 
-footer section nav a:hover {
+header section nav a:hover {
     color: #ff0000; /* Change color on hover */
   }
 
-  footer section ul {
+footer section ul {
     list-style-type: none;
 }
   
