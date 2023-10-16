@@ -12,5 +12,9 @@ Spotify for Bootstrap.
 
 ## Screenshots ##
 
+![Screenshot](assets/images/WM-Portfolio-Deployed-Site-1.png)
+![Screenshot](assets/images/WM-Portfolio-Deployed-Site-2.png)
+![Screenshot](assets/images/WM-Portfolio-Deployed-Site-3.png)
+
 ## Link to Deployed Application ##
 [William Mason Portfolio](https://wmason1997.github.io/WM-Portfolio/)
