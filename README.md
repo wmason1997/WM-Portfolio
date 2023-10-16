@@ -7,7 +7,7 @@ be a fun place to share my new personal projects.
 
 ## Credits ##
 I learned how to embed a resume from [How to Embed PDF Document in HTML Webpage](https://www.codexworld.com/embed-pdf-document-file-in-html-web-page/#:~:text=Generally%2C%20a%20hyperlink%20is%20used,document%20on%20the%20web%20page). I also used ChatGPT to help me get the images, when clicked, lead
-to the place-holder websites. The placeholder websites I used were StatMuse for MySQL, IMDb for MongoDB, an Online Calculator for JavaScript, and 
+to the place-holder websites as well as other styling details. The placeholder websites I used were StatMuse for MySQL, IMDb for MongoDB, an Online Calculator for JavaScript, and 
 Spotify for Bootstrap.
 
 ## Screenshots ##
