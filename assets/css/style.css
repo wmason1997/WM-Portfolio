@@ -1,3 +1,11 @@
+/* creating the custom CSS color variables (custom properties) and apply at root of page, making them global to the rest of css */
+:root {
+    --link-hover-color: red;
+    --background-color: beige;
+    --anchor-color: black;
+    --header-and-footer-color: aquamarine;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,11 +13,11 @@
 /* Element selectors */
 /* body element selector */
 body {
-    background-color: beige;
+    background-color: var(--background-color);
 }
 
 a {
-    color: black;
+    color: var(--anchor-color);
     text-decoration: none;
 }
 
@@ -22,6 +30,7 @@ p {
 header h1 {
     display: flex;
     justify-content: center;
+    background-color: var(--header-and-footer-color);
 }
 
 header section {
@@ -43,19 +52,23 @@ header section ul li {
 nav {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: var(--header-and-footer-color);
 }
   
 nav a {
-    color: #13293d;
+    color: var(--anchor-color);
     padding: 14px 50px;
     text-decoration: none;
     text-align: center;
   }
 
-header section nav a:hover {
-    color: #ff0000; /* Change color on hover */
+nav a:hover {
+    color: var(--link-hover-color); /* Change color on hover */
   }
+
+footer a:hover {
+    color: var(--link-hover-color); /* Change color on hover */
+}
 
 footer section ul {
     list-style-type: none;
@@ -77,7 +90,7 @@ li {
   
 
 footer section nav a:hover {
-    color: #ff0000; /* Change color on hover */
+    color: var(--link-hover-color); /* Change color on hover */
   }
 
 /* hero image class selector */
@@ -175,6 +188,13 @@ footer section nav a:hover {
     text-align: center;
   }
 
+  .larger-item .card {
+    margin: 10px; /* Adjust the margin for spacing between cards */
+    height: 450px;
+    width: 600px;
+    overflow: hidden;
+  }
+
 
   
   
@@ -200,6 +220,9 @@ footer section nav a:hover {
     margin: 10px; /* Adjust the margin for spacing between cards */
     height: 300px;
     width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .card-image img {
@@ -220,14 +243,51 @@ footer section nav a:hover {
   
   .card-text p {
     font-size: 1rem;
-    color: #666;
+    color: var(--anchor-color);
     margin: 0;
   }
 
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    
+}
   
+footer section {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--anchor-color);
+    padding: 14px 50px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-links a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+  
+/* Media Query to make screen responsive when resizing */
   @media (max-width: 767px) {
     .main-container {
-      align-items: flex-start;
+      align-items: center;
     }
   
     .flex-container {
