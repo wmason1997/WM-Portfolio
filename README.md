@@ -10,6 +10,8 @@ I learned how to embed a resume from [How to Embed PDF Document in HTML Webpage]
 to the place-holder websites as well as other styling details. The placeholder websites I used were StatMuse for MySQL, IMDb for MongoDB, an Online Calculator for JavaScript, and 
 Spotify for Bootstrap.
 
+I had a tutoring session with Corrado Alfano on 10/15 where he helped me to understand flexbox better.
+
 ## Screenshots ##
 
 ![Screenshot](assets/images/WM-Portfolio-Deployed-Site-1.png)
