@@ -5,7 +5,7 @@ With what I have learned so far through 3 weeks of the course, I have designed a
 create more projects along the way. Hopefully, this portfolio website will serve me well in my future career search and moreover
 be a fun place to share my new personal projects.
 
-This deployed portfolio website is my first attempt at utilizing flex box, responsive design, and CSS custom properties to help
+This deployed portfolio website is my first attempt at utilizing flexbox, media queries/responsive design, and CSS custom properties to help
 build a website. I will update and improve it as I have more projects to showcase and a better grasp on the fundamentals and advanced methods. Thanks for taking a look!
 
 ## Credits ##
@@ -14,6 +14,8 @@ to the place-holder websites as well as other styling details. It helped me to g
 Spotify for Bootstrap. Of course, I did not program anything regarding these websites but they seemed like good stand-in applications from my understanding of what the associated programming languages could accomplish.
 
 I had a tutoring session with Corrado Alfano on 10/15 (scheduled through the course Calendly) where he helped me to understand flexbox better and break the problem down into more manageable steps.
+
+For color inspiration, I looked through https://www.khroma.co/train and selected colors I enjoyed to put them together for this webpage.
 
 ## Screenshots ##
 

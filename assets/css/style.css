@@ -153,7 +153,7 @@ footer a {
 .Horiseon-Marketing {
     height: 600px;
     width: 1000px;
-    float: left;
+    justify-content: center;
     background-image: url("../images/WM-Portfolio-Horiseon-Marketing-Photo.png");
 }
 
@@ -161,7 +161,7 @@ footer a {
 .MySQL {
     height: 600px;
     width: 500px;
-    float:left;
+    justify-content: center;
     background-image: url("../images/WM-Portfolio-MySQL-Photo.jpg"); 
 }
 
@@ -169,7 +169,7 @@ footer a {
 .MongoDB {
     height: 600px;
     width: 500px;
-    float:left;
+    justify-content: center;
     background-image: url("../images/WM-Portfolio-MongoDB-Photo.png"); 
 }
 
@@ -177,7 +177,7 @@ footer a {
 .JavaScript {
     height: 600px;
     width: 500px;
-    float:left;
+    justify-content: center;
     background-image: url("../images/WM-Portfolio-JavaScript-Photo.jpg"); 
 }
 
@@ -185,7 +185,7 @@ footer a {
 .Bootstrap {
     height: 600px;
     width: 500px;
-    float:left;
+    justify-content: center;
     background-image: url("../images/WM-Portfolio-Bootstrap-Photo.png"); 
 }
 
