@@ -13,7 +13,7 @@ I learned how to embed a resume from [How to Embed PDF Document in HTML Webpage]
 to the place-holder websites as well as other styling details. It helped me to get the work section's cards flex the way I wanted them to. The placeholder websites I used were StatMuse for MySQL, IMDb for MongoDB, an Online Calculator for JavaScript, and 
 Spotify for Bootstrap. Of course, I did not program anything regarding these websites but they seemed like good stand-in applications from my understanding of what the associated programming languages could accomplish.
 
-I had a tutoring session with Corrado Alfano on 10/15 (scheduled through the course Calendly) where he helped me to understand flexbox better and break the problem down into more manageable steps.
+I had a tutoring session with Corrado Alfano on 10/15 (scheduled through the course Calendly) where he helped me to understand flexbox better and break the problem down into more manageable steps. I then further referenced the Week 2 Mini-Project for help.
 
 For color inspiration, I looked through https://www.khroma.co/train and selected colors I enjoyed to put them together for this webpage.
 
