@@ -6,6 +6,7 @@
     --header-and-footer-color: aquamarine;
 }
 
+/* Universal Selector for Box Model */
 * {
     box-sizing: border-box;
 }
@@ -16,45 +17,49 @@ body {
     background-color: var(--background-color);
 }
 
+/* anchor element selector */
 a {
     color: var(--anchor-color);
     text-decoration: none;
 }
 
+/* paragraph element selector */
 p {
     font-size: 16px;
 }
 
-
-
+/* h1 header element selector */
 header h1 {
     display: flex;
     justify-content: center;
     background-color: var(--header-and-footer-color);
 }
 
+/* header section element selector */
 header section {
     display: flex;
     justify-content: center;
 }
 
-
+/* unordered list element selector for header sections */
 header section ul {
     list-style-type: none;
 }
   
- /* List Item element within Unordered List List Item element selector. Replaced div with section to make semantic */
+ /* List Item element within Unordered List List Item element selector*/
 header section ul li {
     display: inline-block;
     margin-left: 60px; 
 }
 
+/* nav element selector */
 nav {
     display: flex;
     justify-content: center;
     background-color: var(--header-and-footer-color);
 }
   
+/* anchor element selector within nav element */
 nav a {
     color: var(--anchor-color);
     padding: 14px 50px;
@@ -62,14 +67,17 @@ nav a {
     text-align: center;
   }
 
+/* anchor elements in nav bar will turn red when hovered over */
 nav a:hover {
-    color: var(--link-hover-color); /* Change color on hover */
-  }
-
-footer a:hover {
     color: var(--link-hover-color); /* Change color on hover */
 }
 
+/* anchor elements footer will turn red when hovered over */
+footer a:hover {
+  color: var(--link-hover-color); /* Change color on hover */
+} 
+
+/* unordered list item selector within footer */
 footer section ul {
     list-style-type: none;
 }
@@ -80,18 +88,37 @@ footer section ul li {
     margin-left: 60px; 
 }
 
+/* unordered list element selector */
 ul {
     list-style-type: none;
 }
 
+/* list item element selector */
 li { 
     display: inline-block;
  }
-  
 
-footer section nav a:hover {
-    color: var(--link-hover-color); /* Change color on hover */
-  }
+/* footer element selector */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+/* footer section element selector */
+footer section {
+  display: flex;
+  justify-content: center;
+}
+
+/* footer anchor element selector */
+footer a {
+  color: var(--anchor-color);
+  padding: 14px 50px;
+  text-decoration: none;
+  text-align: center;
+  
+}
 
 /* hero image class selector */
 .hero {
@@ -106,12 +133,12 @@ footer section nav a:hover {
     background-position: center;
 }
 
-
-
+/* subtitle class selector */
 .subtitle {
     text-align: center;
 }
 
+/* four body sections class selectors */
 .about-me,
 .work,
 .resume,
@@ -122,6 +149,7 @@ footer section nav a:hover {
     align-items: center;
 }
 
+/* main deployed project class selector */
 .Horiseon-Marketing {
     height: 600px;
     width: 1000px;
@@ -129,6 +157,7 @@ footer section nav a:hover {
     background-image: url("../images/WM-Portfolio-Horiseon-Marketing-Photo.png");
 }
 
+/* MySQL class selector */
 .MySQL {
     height: 600px;
     width: 500px;
@@ -136,6 +165,7 @@ footer section nav a:hover {
     background-image: url("../images/WM-Portfolio-MySQL-Photo.jpg"); 
 }
 
+/* MongoDB class selector */
 .MongoDB {
     height: 600px;
     width: 500px;
@@ -143,6 +173,7 @@ footer section nav a:hover {
     background-image: url("../images/WM-Portfolio-MongoDB-Photo.png"); 
 }
 
+/* JavaScript class selector */
 .JavaScript {
     height: 600px;
     width: 500px;
@@ -150,6 +181,7 @@ footer section nav a:hover {
     background-image: url("../images/WM-Portfolio-JavaScript-Photo.jpg"); 
 }
 
+/* Bootstrap class selector */
 .Bootstrap {
     height: 600px;
     width: 500px;
@@ -157,6 +189,7 @@ footer section nav a:hover {
     background-image: url("../images/WM-Portfolio-Bootstrap-Photo.png"); 
 }
 
+/* image-link class selector */
 .image-link {
     display: block;
     width: 100%;
@@ -164,23 +197,14 @@ footer section nav a:hover {
     text-decoration: none;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
+/* main-container class selector for flex box layout */
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
+  /* larger-item class selector */
   .larger-item {
     font-size: 24px; /* Increase the font size for the larger item */
     background-color: #f0f0f0; /* Example background color for the larger item */
@@ -188,22 +212,22 @@ footer section nav a:hover {
     text-align: center;
   }
 
+  /* larger-item card class selector */
   .larger-item .card {
     margin: 10px; /* Adjust the margin for spacing between cards */
     height: 450px;
     width: 600px;
     overflow: hidden;
   }
-
-
   
-  
+  /* flex-container class selector for flex box layout */
   .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
+  /* flex-item class selector for flex box layout */
   .flex-item {
     flex: 1;
     background-color: #f0f0f0; /* Example background color for the other items */
@@ -212,6 +236,7 @@ footer section nav a:hover {
     margin: 10px;
   }
 
+  /* card class selector for flex box */
   .card {
     background-color: #fff; /* Card background color */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Optional card shadow */
@@ -225,50 +250,33 @@ footer section nav a:hover {
     align-items: center;
   }
   
+  /* card image class selector */
   .card-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
   
+  /* card text class selector */
   .card-text {
     text-align: center;
     padding: 20px;
   }
   
+  /* h3 card text class selector */
   .card-text h3 {
     font-size: 1.5rem;
     margin: 0;
   }
   
+  /* card text paragraph class selector */
   .card-text p {
     font-size: 1rem;
     color: var(--anchor-color);
     margin: 0;
   }
 
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: aquamarine;
-    
-}
-  
-footer section {
-    display: flex;
-    justify-content: center;
-}
-
-footer a {
-    color: var(--anchor-color);
-    padding: 14px 50px;
-    text-decoration: none;
-    text-align: center;
-    
-  }
-
-
+/* contact-links class selector with flex box functionality */
 .contact-links {
     display: flex;
     flex-wrap: wrap;
@@ -276,6 +284,7 @@ footer a {
     align-items: center;
 }
 
+/* contact-links anchor class selector */
 .contact-links a {
     display: flex;
     flex-wrap: wrap;
@@ -284,7 +293,7 @@ footer a {
     margin-right: 10px;
 }
   
-/* Media Query to make screen responsive when resizing */
+/* Media Query to make screen layout responsive when resizing */
   @media (max-width: 767px) {
     .main-container {
       align-items: center;
